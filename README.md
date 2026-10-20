@@ -4,7 +4,7 @@ A calm, local-first bookmark manager that works as a browser homepage. Fork it, 
 
 **No backend. No accounts. No database to run.**
 
-![PersonalB](public/wallpapers/emerald.jpg)
+![PersonalB](public/wallpapers/webapp.JPG)
 
 ## Features
 
