@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a100d" />
+    <meta
+      name="description"
+      content="PersonalB — a calm, local-first bookmark manager for your new tab. Collect your favourite links into beautiful spaces."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23cdf27a'/%3E%3Cpath d='M10 21c0-6 5-10 12-10 0 7-4 12-10 12-1 0-2-.8-2-2Z' fill='%2317240f'/%3E%3Cpath d='M11 22c2-4 5-7 9-9' stroke='%23cdf27a' stroke-width='1.4' stroke-linecap='round'/%3E%3C/svg%3E"
+    />
+    <script>
+      try {
+        var saved = JSON.parse(
+          localStorage.getItem("PersonalB.data.v1") ||
+            localStorage.getItem("lumilist.data.v1") ||
+            "null",
+        );
+        var mode = saved && saved.settings && saved.settings.theme;
+        if (mode === "light") {
+          document.documentElement.setAttribute("data-theme", "light");
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute("content", "#e9efe5");
+        }
+      } catch (error) {}
+    </script>
+    <title>PersonalB — your calm corner of the internet</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

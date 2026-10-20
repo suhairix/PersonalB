@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build output (GitHub Actions builds this)
+dist/
+
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# logs
+npm-debug.log*
+yarn-error.log*
+
+# local test artifacts
+shots*.png
+playwright-report/
+test-results/
