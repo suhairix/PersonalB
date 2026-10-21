@@ -1,6 +1,8 @@
 # PersonalB
 
-A calm, local-first bookmark manager that works as a browser homepage. Fork it, host it yourself, and let every visitor keep their own library — in their browser, or in their own GitHub account.
+A calm, local-first bookmark manager that works as a browser homepage. Fork it, host it yourself, and let every visitor keep their own library — in their browser, or in their own GitHub account. No ads, no bullshit, free for ever.
+
+**You can pair with any device browser android,ios,mac, linux or windows. With optional github cloud storage for sync across device**
 
 **No backend. No accounts. No database to run.**
 
